@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body    {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*medias Absolutas 
+            cm, mm, in(polegada), px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+            font-weight: lighter;
+            font-style: italic;
+            text-decoration: underline;
+            /* lighter normal bold bolder */
+        }
+        h1 { 
+        
+            /* shorthand font obs:simplificação
+            -font-family: 'work sans', sans-serif;
+            -font-weight: bolder;
+            -font-size: 3em;
+            -font-style: italic;
+            
+            -font-style(estilo,normal italico) -> font-weight(peso 1em 16px) -> font-size(tamanho) -> font-family(arial) EX:abaixo */
+            
+            font: italic 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A minus asperiores ipsum perferendis qui in inventore, nemo voluptatem, nisi ea harum nobis voluptatum quisquam. Quia aliquid pariatur inventore et quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo neque saepe esse temporibus numquam ea, quae, cupiditate at, rerum voluptatibus provident dicta vero optio! Excepturi sequi autem omnis ad sunt?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ad natus voluptates facilis facere neque officiis quo quasi. Asperiores earum harum temporibus et voluptatibus veniam dolores commodi error fugiat aut?</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque corrupti porro pariatur tenetur minima ab delectus? Itaque magnam, aperiam exercitationem blanditiis dolorum voluptas deleniti esse nam et, quis similique! lore</p>
+</body>
+</html>

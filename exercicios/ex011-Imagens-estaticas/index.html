@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmte aumente e dimunua o seu navegador</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexivel">
+    </picture>
+<h1>reproduzindo audio</h1>
+<p>vamos aprender a reprozzir audio em html5</p>
+<audio src="midia/happy.mp3.mp3" controls autoplay></audio>
+<!--OU TAMBEM A SEGUNDA MANEIRA DE COLOCAR AUDIO-->
+<audio>
+    <source src="midia/happy.mp3.mp3" type="audio/mpeg">
+    <source src="midia/happy.mp3.ogg" type="audio/ogg">
+    <source src="midia/happy.mp3.wav" type="audio/wav">
+</audio>
+<h1>inserindo videos hospeados localmente</h1> <!--CUSTO MUITO ALTO -->
+<p> Este video é hospedado no meu proprio servidor.
+    <video width="500" poster="imagens/nomedoarquivo.mp4/m4v/webm/ogv(tipos de formatos de video)" type="video/mp4">
+    </video>
+</p>
+    <h1>inserindo video do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    
+</body>
+
+</html>
