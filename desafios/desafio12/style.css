@@ -46,7 +46,7 @@ section{
 section.normal{
     background-color: white;
     color: black;
-    margin: -5px;
+    margin: 0px;
 }
 
 section.imagem {
@@ -59,23 +59,27 @@ section.imagem {
 
 section.imagem > p {
     display:inline-block;
-    padding: 5px;
     background-color: rgba(12, 12, 12, 0.274);
     text-shadow: 2px 2px 0px black;
+    padding: 5px;
 }
 
 section#img01{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    flex-direction: row;
 }
 section#img02{
     background-image: url(imagens/background002.jpg);
-    background-position: right center;
+    background-position: center center;
     background-repeat: no-repeat;
+    flex-direction: row;
+    
 }
 
 footer {
+    
     background-color: black;
     color: white;
     padding: 10px;
