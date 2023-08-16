@@ -44,7 +44,7 @@ section{
 }
 
 section.normal{
-    background-color: white;
+    background-color: rgba(191, 196, 139, 0.61);
     color: black;
     margin: 0px;
 }
@@ -52,7 +52,7 @@ section.normal{
 section.imagem {
     background-color: rgb(27, 26, 26);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px black;
+    box-shadow: inset 3px 3px 10px 0px black;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -81,7 +81,8 @@ section#img02{
 footer {
     
     background-color: black;
-    color: white;
+    color: rgba(255, 255, 255, 0.596);
     padding: 10px;
     text-align: center;
+    font-size: 1em;
 }
